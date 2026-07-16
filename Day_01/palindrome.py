@@ -11,3 +11,7 @@ def is_palindrome(num):
     return result == original_num
 
 print(is_palindrome(12345))
+
+# reverse string
+def str_palindrome(str1):
+    return str1[::-1]
