@@ -7,7 +7,8 @@ def pal_fun(s,l,r):
     return pal_fun(s,l+1,r-1)
 
 
-s = "hello"
+# s = "hello"
+s = "nitin"
 l=0
 r=len(s)-1
 
