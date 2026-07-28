@@ -14,7 +14,8 @@ def reverse_arr(arr,left,right):
         right -= 1
 
 
-arr = [1, 2, 3, 4, 5]
+# arr = [1, 2, 3, 4, 5]
+arr = [9,8,7,6,5]
 
 reverse_arr(arr, 0, len(arr) - 1)
 print(arr)
