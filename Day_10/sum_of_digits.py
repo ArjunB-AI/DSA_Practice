@@ -8,5 +8,5 @@ def sum_of_digits(n):
 
 
 # num = 1234
-num = 1234
+num = 2345
 print("Sum of digits:", sum_of_digits(num))

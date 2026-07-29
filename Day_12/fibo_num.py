@@ -7,3 +7,4 @@ def fibo_num(num):
 print(fibo_num(12))
 print(fibo_num(13))
 print(fibo_num(14))
+print(fibo_num(15))
