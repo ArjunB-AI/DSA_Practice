@@ -1,3 +1,4 @@
+# Ascending order
 def sel_sort(num):
     n = len(num)
 
@@ -12,6 +13,20 @@ def sel_sort(num):
 
     return num
 
+#Descending order
+def sel_sort(num):
+    n = len(num)
+    
+    for i in range(0,n):
+        max_ind = i
+        
+        for j in range(i+1,n):
+            if num[j] > num[max_ind]:
+                max_ind = j
+        
+        num[i],num[max_ind] = num[max_ind],num[i]
+        
+    return num
 
 arr = [1,3,2,4,6,5,9,8]
 print(sel_sort(arr))
