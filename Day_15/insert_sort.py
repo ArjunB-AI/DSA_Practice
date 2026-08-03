@@ -14,4 +14,5 @@ def insert_sort(nums):
 
 arr = [1,3,5,4,2]
 arr = [1,3,5,4,2]
+arr = [1,3,5,4,2]
 print(insert_sort(arr))
